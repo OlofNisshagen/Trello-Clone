@@ -10,7 +10,7 @@ class List {
   }
   
   void displayList(boolean hover) {
-    fill(hover ? 200 : 255);
+    fill(hover ? 220 : listColor);
     rect(0, 0, LIST_WIDTH, calculateListHeight(), 15);
     pushMatrix();
     for(Item i : items) {

@@ -8,7 +8,9 @@ class Item {
   }
   
   void displayItem() {
-    fill(255, 0, 0);
+    stroke(200);
+    strokeWeight(1);
+    fill(itemColor);
     rect(PADDING, LIST_HEADER_HEIGHT, LIST_WIDTH - 2 * PADDING, itemHeight, 10);
   }
   
